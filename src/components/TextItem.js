@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 export default class TextItem extends Component{
     
     createItems(nodes, states, childIndex = 0) {
+        if(!nodes && !states) return;
         let title;
         switch(childIndex) {
             case 0:

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snap shot test renders correctly when there are no items 1`] = `
+<div
+  class="node"
+>
+  <div
+    className="tree-container"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+  />
+</div>
+`;

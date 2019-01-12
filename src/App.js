@@ -49,7 +49,7 @@ componentDidMount() {
     
     return (
       <div className="App">
-        { nodes && <TextItem {...this.state} onClick={() => console.log('clicked')} /> }
+        { nodes && <TextItem {...this.state} /> }
       </div>
     );
   }
